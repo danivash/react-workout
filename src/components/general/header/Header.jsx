@@ -5,8 +5,7 @@ import HamburgerImage from '../../../images/header/hamburger.png';
 
 const Header = () => {
   return (
-   <div>
-        <header className={styles.header}></header>
+     <header className={styles.header}>
         <button type='button'>
             <img src={UserImage} alt='Authorization'></img>
         </button>
@@ -14,7 +13,7 @@ const Header = () => {
         <button type='button'>
         <img src={HamburgerImage} alt='Authorization'></img>
         </button>
-   </div> 
+    </header>
   )
 }
 
